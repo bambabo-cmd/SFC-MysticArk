@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "repository": "bambabo-cmd/SFC-MysticArk",
+  "documented_release": "v1.1.12-19r19 + Cheat / Galmuri",
+  "verification_date": "2026-09-29",
+  "timezone": "Asia/Seoul",
+  "source_rom": {
+    "size": 4194304,
+    "md5": "540E82F13AD57A2C6FFC0E14E3F61098",
+    "crc32": "FEB80589",
+    "sha1": "BA80E259616529F907425BCC553A1A0959F0D7F4",
+    "sha256": "A19337DA953F63C806754B90AF7FF9FBEA1BF090618DAE732EE3A546882B8700",
+    "filename": "Mystic Ark (J).smc",
+    "platform": "SNES / SFC",
+    "region": "Japan",
+    "representation": "512바이트 외부 복사기 헤더 없음"
+  },
+  "patches": [
+    {
+      "path": "Mystic Ark (J) [KO v1.1.12-19r19+Cheat_Galmuri].ips",
+      "format": "ips",
+      "github_blob_sha": "b4bd11c815c2372509027b39361c5731ab762c99",
+      "patch_checksums": {
+        "size": 480483,
+        "md5": "83FA3D3A8760771C88C8841E5F5C532B",
+        "crc32": "385568D8",
+        "sha1": "21504C6CCFD259FD913312FAEA7E0AE4F7EB3114",
+        "sha256": "C034353620885D2D9AE8C46FE310292EE498E1C0F13A4FB15D41526164B0E5DB"
+      },
+      "patched_rom": {
+        "size": 8388608,
+        "md5": "607F594D00147477BEFD5951FC0ABCF6",
+        "crc32": "3668C878",
+        "sha1": "488EE6964ED71D846C11959DF0644C4780EBFD01",
+        "sha256": "95EF22BE8587238C488B10892C028F35FBFA6E8D9CB750C2B4F3E1BBA5F270EB"
+      },
+      "verification": "업로드된 Git blob SHA와 로컬 패치 일치 확인 후 지원 원본에 직접 재적용. 결과 전체 파일의 체크섬 계산."
+    },
+    {
+      "path": "Mystic Ark (J) [KO v1.1.12-19r19+Cheat_Galmuri].xdelta",
+      "format": "xdelta",
+      "github_blob_sha": "b35218cbffe46cc45e8c0fd2d926cb101c157acd",
+      "patch_checksums": {
+        "size": 203483,
+        "md5": "AAC5755D61313A886D5FC1A4E2E61D15",
+        "crc32": "1E2A6A1E",
+        "sha1": "32B869B46034EC5F02D6035C677C5977CB118DED",
+        "sha256": "B3FFD5D42978C47EBDE938326E3B20C023A6B8BD2ABAC6372DA7DED0FC631470"
+      },
+      "patched_rom": {
+        "size": 8388608,
+        "md5": "607F594D00147477BEFD5951FC0ABCF6",
+        "crc32": "3668C878",
+        "sha1": "488EE6964ED71D846C11959DF0644C4780EBFD01",
+        "sha256": "95EF22BE8587238C488B10892C028F35FBFA6E8D9CB750C2B4F3E1BBA5F270EB"
+      },
+      "verification": "업로드된 Git blob SHA와 로컬 패치 일치 확인 후 지원 원본에 직접 재적용. 결과 전체 파일의 체크섬 계산."
+    }
+  ],
+  "history": {
+    "first_work_date": null,
+    "earliest_verified_record_date": "2026-07-16",
+    "date_evidence": "archive/2026-07-16_safe_pre_longtext/mystic_ark_jp_base_ko_event_beta_QA.txt의 생성 기록(2026-07-16 06:08:45 +09:00). 이미 베타 작업물이므로 실제 최초 착수일은 미확정.",
+    "revision_label": "v1.1.12-19r19 + Cheat / Galmuri",
+    "recorded_revision_count": null,
+    "recorded_revision_ids": [],
+    "revision_count_definition": "번호가 붙은 보존 ROM·패치·문서의 고유 버전 수. 실패/철회 후보 포함 가능. 실제 수정 작업 횟수와 다름. Front Mission은 WIP_INDEX, Scurge는 001~010 작업 기록을 사용. 공통 규칙 파일/외부 도구 날짜 제외.",
+    "total_modification_count": null,
+    "release_work_date": "2026-09-20",
+    "final_project_completion_date": null,
+    "completion_status": "전체 작업 완료 기록 미확정; 진행 중인 검수와 알려진 한계를 보존",
+    "additional_context": "같은 무수정 일본어 원본에 IPS 또는 xdelta 중 하나만 적용한다. 두 패치의 재구성 결과는 동일하다."
+  },
+  "verification_scope": "파일 식별 및 패치 적용 결과 검증. 이번 문서 작업에서 에뮬레이터 실행/전체 플레이 검증을 새로 수행한 것은 아님.",
+  "known_limitations": "전체 대사·이벤트·이름 치환 완주, 전투/목록 전체 회귀, 장시간 그래픽 문제 재발 여부와 다른 에뮬레이터·실기 검수가 남아 있다."
+}
